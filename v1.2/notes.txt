@@ -1,0 +1,18 @@
+Version 1.2 Changes:
+
+1) Added "in between" screens between focus timer and break timer, as well as between break timer and welcome screens
+2) Added 20 second idle timer to turn off backlight on all screens except timer and break screens
+3) Added button release loops and 0.3 second debounce
+
+button-release loop: 
+while the button is being pressed (== 0), wait 0.05 over and over (wait for the button to be released)
+and THEN break and move on to the next screen (when finger goes off the button)
+this prevents the button press from registering onto then next screen in case of long press
+if it stays pressed and the next screen shows that screen will register a button press
+
+debounce: 
+wait after button press so it's not registered more than once
+without debounce a single button press can look like multiple presses because the pico reads it so fast
+
+Note: Timer may be short for demonstration purpose (adjust as needed in the source code)
+
