@@ -15,7 +15,7 @@ A very basic Raspberry Pi Pico Pomodoro timer using a 20x4 I2C LCD, button, and 
 - 20-second idle backlight shutoff on welcome/waiting screens
 
 ## Hardware
-- Raspberry Pi Pico                   (RP2040 aka Pico 1 is more than enough) 
+- Raspberry Pi Pico                   (I'm using a generic RP2040 clone with USB C) 
 - 20x4 I2C LCD with I2C backpack      (Standard I2C 20x4 LCD from AliExpress with I2C backpack for I2C communication protocol)
 - Push button                         (Any typical electronics button will do)
 - Active buzzer                       (Standard electronics buzzer from AliExpress)
