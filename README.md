@@ -3,8 +3,8 @@
 A very basic Raspberry Pi Pico Pomodoro timer using a 20x4 I2C LCD, button, and buzzer.
 
 ## Current Version 
-Version 1.2
-Click version number folder to get main.py file (this is the main program of the pomodoro timer) and make sure to get both libraries lcd_api.py and pico_i2c_lcd.py or the main program will not work. 
+- Version 1.2
+- Click version number folder to get main.py file (this is the main program of the pomodoro timer) and make sure to get both libraries lcd_api.py and pico_i2c_lcd.py or the main program will not work. 
 
 ## Features
 - 25-minute focus timer
