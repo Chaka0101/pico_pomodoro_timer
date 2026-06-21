@@ -1,6 +1,8 @@
 # Pico Pomodoro Timer
 
 A very basic Raspberry Pi Pico Pomodoro timer using a 0.96 OLED or 20x4 I2C LCD, button, and buzzer.
+![OLED Pomodoro Timer](images/IMG_0252.HEIC)
+![OLED Pomodoro Timer](images/IMG_0253.HEIC)
 
 ## Current Version 
 - Version 1.3 (OLED display)
