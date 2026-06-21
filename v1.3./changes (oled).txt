@@ -1,0 +1,20 @@
+summary = """Pomodoro OLED Conversion Summary
+
+- Replaced the 20x4 I2C LCD with a 0.96 inch SSD1306 OLED.
+- Changed the display library from pico_i2c_lcd.py to ssd1306.py.
+- Changed the import from I2cLcd to SSD1306_I2C.
+- Updated I2C wiring for regular hardware I2C:
+  OLED SDA -> GP0
+  OLED SCL -> GP1
+- Kept the same button wiring:
+  Button -> GP18 and GND
+- Kept the same buzzer wiring:
+  Buzzer -> GP16 and GND
+- Replaced LCD commands like lcd.putstr(), lcd.move_to(), and lcd.clear().
+- Used OLED commands like oled.text(), oled.fill(), and oled.show().
+- Added helper functions to clear the OLED and center text.
+- Changed text spacing because the OLED fits about 16 characters per row instead of 20.
+- Removed true backlight control because OLED screens do not have a separate backlight.
+- The idle display-off feature now clears the OLED screen instead of turning off a backlight.
+- Timer logic, button logic, buzzer functions, and session counter stayed mostly the same.
+"""
