@@ -17,12 +17,16 @@ A very basic Raspberry Pi Pico Pomodoro timer using a 0.96 OLED or 20x4 I2C LCD,
 - 20-second idle backlight shutoff on welcome/waiting screens
 
 ## Hardware
+- 3D Printed Baseplate designed by me (for mounting the pcb/prototype board)
+- 5x7 PCB/prototypeboard              (should be enough space for everything)
+- 3xAAA battery holder                (will be superglued to back of baseplate)
 - Raspberry Pi Pico                   (I'm using a generic RP2040 clone with USB C)
 - 0.96 Inch LCD                       (Standard 1 inch OLED from Ali Express)
 - 20x4 I2C LCD with I2C backpack      (Standard I2C 20x4 LCD from AliExpress with I2C backpack for I2C communication protocol)
 - Push button                         (Any typical electronics button will do)
 - Active buzzer                       (Standard electronics buzzer from AliExpress)
 - 5V USB power                        (Plugs directly into Pico for 5V power)
+- Soldering Iron, wire cutters/strippers, multimeter, and other basic electronics tools 
 
 ## Important Notes
 - For the code to work you need to load the following onto microcontroller (Pico in this case):
